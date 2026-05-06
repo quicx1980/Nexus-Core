@@ -764,7 +764,7 @@ const SignInPage = ({ onSignIn, onBack, onApply }: { onSignIn: () => void, onBac
               <input type="checkbox" className="rounded border-outline-variant text-brand-blue focus:ring-brand-blue" />
               <span className="text-sm text-on-surface-variant">Remember me</span>
             </label>
-            <a href="#" className="text-sm text-brand-blue hover:underline font-medium">Forgot Password?</a>
+            <button type="button" className="text-sm text-brand-blue hover:underline font-medium">Forgot Password?</button>
           </div>
           <button type="submit" className="nexus-btn-primary w-full py-3 mt-4 text-[16px]">
             Sign In
